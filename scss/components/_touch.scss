@@ -1,0 +1,44 @@
+.touch{
+    border-bottom: none;
+
+    label{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+
+    input{
+        color: white;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        display: inline-flex;
+        height: 45px;
+        padding: 14px 16px;
+        align-items: center;
+        flex-shrink: 0;
+        background: none;
+    }
+
+    textarea{
+        color: white;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        display: flex;
+        height: 120px;
+        padding: 14px 16px;
+        align-items: center;
+        flex-shrink: 0;
+        background: none;
+        resize: none;
+    }
+    
+
+   
+}
+
+.touch__btn{
+    background: var(--c-primary);
+}
+

@@ -1,0 +1,59 @@
+.portfolio {
+	&__list {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 26px;
+
+		@include tablet-small {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		@include mobile {
+			grid-template-columns: 1fr;
+		}
+	}
+}
+
+.portfolio-item {
+	position: relative;
+
+	&:hover {
+		.portfolio-item__search {
+			opacity: 1;
+			transform: translate(-50%, -50%) scale(1);
+		}
+	}
+
+	&__search {
+		width: 76px;
+		cursor: pointer;
+		height: 76px;
+		background: var(--c-primary);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		opacity: 0;
+		transition: var(--transition);
+		transform: translate(-50%, -50%) scale(0);
+	}
+
+	&__img {
+		border-radius: 8px;
+		overflow: hidden;
+
+		img {
+			border-radius: 8px;
+			width: 100%;
+			object-fit: cover;
+			transition: var(--transition);
+
+			&:hover {
+				transform: scale(1.3);
+			}
+		}
+	}
+}

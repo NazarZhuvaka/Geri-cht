@@ -1,0 +1,104 @@
+.welcome {
+	margin-top: 51px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding-bottom: 153px;
+
+
+	@include tablet {
+		gap: 70px;
+		flex-direction: column-reverse;
+	}
+
+	@include mobile {
+		margin-top: 20px;
+	}
+
+	@include mobile-small {
+		gap: 40px;
+	}
+
+
+	&__title {
+		color: var(--c-white);
+		font-size: 92px;
+		font-weight: 700;
+		margin-bottom: 24px;
+
+		@include desktop-small {
+			font-size: 50px;
+		}
+
+		@include mobile {
+			font-size: 32px;
+		}
+	}
+
+	&__roles {
+		display: flex;
+		gap: 27px;
+		color: var(--c-white);
+		font-size: 18px;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-bottom: 24px;
+
+		@include desktop-small {
+			font-size: 16px;
+		}
+
+		@include mobile {
+			flex-wrap: wrap;
+			gap: 20px;
+
+			small {
+				display: none;
+			}
+		}
+	}
+
+	&__desc {
+		color: var(--c-body);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 160%;
+		margin-bottom: 24px;
+		max-width: 557px;
+
+		@include desktop-small {
+			font-size: 14px;
+		}
+	}
+
+	&__img {
+		flex-shrink: 0;
+		border-radius: 50%;
+		outline: 10px solid var(--c-primary);
+		box-shadow: 0px 15px 14px 0px rgba(0, 0, 0, 0.59);
+		max-width: 460px;
+		width: 100%;
+		aspect-ratio: 1;
+
+		@include desktop-small {
+			flex-shrink: initial;
+		}
+
+		@include mobile {
+			width: 70%;
+		}
+
+		@include mobile-small {
+			width: 40%;
+		}
+
+
+		img {
+			border-radius: 50%;
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+}
