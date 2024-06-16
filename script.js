@@ -17,3 +17,21 @@
 //     }
 //     );
 // }
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+    spaceBetween: '20' ,
+    grabCursor: true,
+
+    pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+    },
+
+    autoplay: {
+        delay: 5000,
+    },
+  
+});

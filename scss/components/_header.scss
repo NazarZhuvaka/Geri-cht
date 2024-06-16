@@ -5,9 +5,11 @@
 	&__container{
 		// display: flex;
 		display: grid;
-		grid-template-columns: 1fr 3fr 1fr;
+		grid-template-columns: 1fr 0.25fr 3fr 1fr;
 		align-items: center;
 		justify-content: space-between;
+
+		padding: 32px 20px;
 	}
 	&__backdrop {
 		display: none;
@@ -25,11 +27,24 @@
 		}
 	}
 
+	&__nav{
+		grid-column-start: 3;
+	}
+
 	&__logo {
-		color: var(--c-white);
-		font-size: 28px;
+		// color: var(--c-white);
+		// font-size: 28px;
+		// font-weight: 700;
+		// display: inline-flex;
+
+		color: rgb(255, 255, 255);
+		font-family: Cormorant Upright;
+		font-size: 44px;
 		font-weight: 700;
-		display: inline-flex;
+		line-height: 130%;
+		letter-spacing: 4%;
+		text-align: center;
+		text-transform: uppercase;
 
 		span {
 			color: var(--c-primary);
@@ -40,7 +55,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 24px;
+		gap: 32px;
 		z-index: 1;
 
 		@include tablet {
@@ -76,9 +91,18 @@
 	}
 
 	&__a {
-		color: var(--c-white);
+		// color: var(--c-white);
+		// font-size: 16px;
+		// font-weight: 400;
+		color: rgb(255, 255, 255);
+		font-family: Open Sans;
 		font-size: 16px;
 		font-weight: 400;
+		line-height: 175%;
+		letter-spacing: 4%;
+		text-align: left;
+
+
 		transition: var(--transition);
 
 		&.is-active,
@@ -102,14 +126,26 @@
 
 .header__links{
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	gap: 50px;
+	// gap: 50px;
+
+	grid-column-start: 4;
+
+
+	color: rgb(255, 255, 255);
+	font-family: Open Sans;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 175%;
+	letter-spacing: 5%;
+	text-align: left;
 }
 
 
 .vertical-line{
 	display: block;
 	width: 1px;
-	height: 57px;
+	height: 47px;
 	background-color: white;
 }

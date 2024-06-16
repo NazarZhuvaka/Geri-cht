@@ -11,6 +11,13 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+	/>
 	<link rel="stylesheet" href="css/style.css">
 	<title>Gerícht</title>
 </head>
@@ -45,9 +52,53 @@
 			</div>
 		</header>
 
+		<section class="welcome">
+			<div class="container welcome__big-container">
+				<div class="welcome__side-info">
+					<p>#Bar</p>
+					<p>#Gericht</p>
+				</div>
+				<div class="small-container welcome__container">
+					<div class="welcome__info">
+						<p class="welcome__info-pretitle">Chase the new Flavour</p>
+						<img src="./img/spoon.svg" alt="pretitle-spoon">
+						<h1 class="welcome__info-title">The key to Fine dining</h1>
+						<p class="welcome__info-desc">
+							Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat 
+							morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus
+						 </p>
+						<button class="btn welcome__info-btn">Explore Menu</button>
+					</div>
+					<div class="welcome__swiper">
+						<div class="swiper">
+							<div class="swiper-wrapper">
+							  <!-- Slides -->
+							  <div class="swiper-slide">
+								<img src="./img/first.png" alt="first">
+							  </div>
+							  <div class="swiper-slide">
+								<img src="./img/second.png" alt="second">
+							  </div>
+							  <div class="swiper-slide">
+								<img src="./img/third.png" alt="third">
+							  </div>
+							</div>
+						</div>
+						<img class="swiper-rectagle swiper-rectagle-top" src="./img/rectangle-top.svg" alt="rectagle-top">
+						<img class="swiper-rectagle swiper-rectagle-bottom" src="./img/rectangle-bottom.svg" alt="rectagle-bottom">
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="welcome__side-scroll">
+					<div class="welcome__side-scroll-line"></div>
+					<p>Scroll</p>
+				</div>
+			</div>
+		</section>
+
 	</div>
 
-
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="script.js"></script>
 </body>
 

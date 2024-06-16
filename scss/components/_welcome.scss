@@ -1,104 +1,135 @@
 .welcome {
-	margin-top: 51px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 20px;
-	padding-bottom: 153px;
 
-
-	@include tablet {
-		gap: 70px;
-		flex-direction: column-reverse;
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center; 
+		gap: 108px;
+		padding: 48px 20px 88px;
 	}
 
-	@include mobile {
-		margin-top: 20px;
+	&__big-container{
+		position: relative;
+		padding-bottom: 32px;
 	}
 
-	@include mobile-small {
-		gap: 40px;
-	}
-
-
-	&__title {
-		color: var(--c-white);
-		font-size: 92px;
-		font-weight: 700;
-		margin-bottom: 24px;
-
-		@include desktop-small {
-			font-size: 50px;
-		}
-
-		@include mobile {
-			font-size: 32px;
-		}
-	}
-
-	&__roles {
+	&__side-info{
 		display: flex;
-		gap: 27px;
-		color: var(--c-white);
-		font-size: 18px;
-		font-weight: 500;
-		text-transform: uppercase;
-		margin-bottom: 24px;
+		gap: 40px;
+		position: absolute;
+		top: 46%;
+		left: 20px;
+		rotate: -90deg;
 
-		@include desktop-small {
-			font-size: 16px;
-		}
-
-		@include mobile {
-			flex-wrap: wrap;
-			gap: 20px;
-
-			small {
-				display: none;
-			}
+		p {
+			color: rgb(255, 255, 255);
+			font-family: Open Sans;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 175%;
+			letter-spacing: 4%;
 		}
 	}
 
-	&__desc {
-		color: var(--c-body);
+	&__side-scroll{
+		display: grid;
+		gap: 24px;
+		position: absolute;
+		right: 20px;
+		bottom: 0;
+		p {
+			color: rgb(220, 202, 135);
+			font-family: Cormorant Upright;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 175%;
+			letter-spacing: 4%;
+			text-align: left;
+			text-transform: uppercase;
+		}
+
+		&-line{
+			justify-self: center;
+			background: linear-gradient(rgb(220, 202, 135),rgba(220, 202, 135, 0.24));
+			width: 1px;
+			height: 61px;
+			
+		}
+		
+
+	}
+
+	&__info {
+		justify-self: center;
+	}
+
+	&__info-pretitle {
+		color: rgb(255, 255, 255);
+		font-family: Cormorant Upright;
+		font-size: 23px;
+		font-weight: 700;
+		line-height: 130%;
+		letter-spacing: 4%;
+		text-align: left;
+		text-transform: capitalize;
+
+		margin-bottom: 8px;
+	}
+
+	&__info-title {
+		max-width: 453px;
+		color: rgb(220, 202, 135);
+		font-family: Cormorant Upright;
+		font-size: 90px;
+		font-weight: 700;
+		line-height: 130%;
+		letter-spacing: 4%;
+		text-align: left;
+		text-transform: capitalize;
+
+		margin-top: 8px;
+
+	}
+
+	&__info-desc {
+		max-width: 453px;
+		color: rgb(170, 170, 170);
+		font-family: Open Sans;
 		font-size: 16px;
 		font-weight: 400;
-		line-height: 160%;
-		margin-bottom: 24px;
-		max-width: 557px;
+		line-height: 175%;
+		letter-spacing: 4%;
+		text-align: left;
 
-		@include desktop-small {
-			font-size: 14px;
-		}
+		margin-top: 32px;
+
 	}
 
-	&__img {
-		flex-shrink: 0;
-		border-radius: 50%;
-		outline: 10px solid var(--c-primary);
-		box-shadow: 0px 15px 14px 0px rgba(0, 0, 0, 0.59);
-		max-width: 460px;
-		width: 100%;
-		aspect-ratio: 1;
+	&__info-btn {
+		padding: 8px 32px;
+		background-color: #DCCA87;
+		color: rgb(12, 11, 8);
+		font-family: Cormorant Upright;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 175%;
+		letter-spacing: 4%;
+		text-align: left;
 
-		@include desktop-small {
-			flex-shrink: initial;
-		}
+		margin-top: 32px;
 
-		@include mobile {
-			width: 70%;
-		}
+	}
 
-		@include mobile-small {
-			width: 40%;
-		}
-
-
-		img {
-			border-radius: 50%;
-			height: 100%;
-			width: 100%;
-			object-fit: cover;
-		}
+	&__swiper {
+		position: relative;
 	}
 }
+
+
+
+// img {
+// 	border-radius: 50%;
+// 	height: 100%;
+// 	width: 100%;
+// 	object-fit: cover;
+// }

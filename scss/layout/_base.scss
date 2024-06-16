@@ -31,7 +31,7 @@ a {
 }
 
 section {
-	padding-bottom: 90px;
+	padding-bottom: 70px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 
 	@include mobile{
@@ -49,8 +49,13 @@ section {
 	padding: 13px 18px;
 	transition: var(--transition);
 
+	&:hover{
+		filter: brightness(0.8);
+	}
+
 	&_primary {
 		background: var(--c-primary);
+		background-color: #C4B075;
 
 		&:hover {
 			background: darken($c-primary, 5%);
@@ -85,3 +90,8 @@ section {
 		font-size: 14px;
 	}
 }
+
+.swiper {
+	width: 619px;
+    height: 688px;
+  }
