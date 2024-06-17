@@ -1,0 +1,76 @@
+.about {
+  background-image: url(./../../img/BG.png);
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 0.45fr 1fr;
+    align-items: center;
+    position: relative;
+    padding: 120px 20px 136px;
+  }
+
+  &__knife {
+    justify-self: center;
+    z-index: 1;
+  }
+
+  &__word {
+    position: absolute;
+    top: 26%;
+    left: 35%;
+    z-index: 0;
+  }
+}
+.about-info {
+  z-index: 1;
+
+  &--right {
+    text-align: right;
+  }
+
+  &__title {
+    color: rgb(220, 202, 135);
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 3%;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+
+    &--right {
+      text-align: right;
+    }
+  }
+
+  &__text {
+    color: rgb(170, 170, 170);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 4%;
+    // max-width: 519px;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    &--right {
+      text-align: right;
+    }
+  }
+
+  &__link {
+    padding: 8px 32px;
+    background: rgb(220, 202, 135);
+    color: rgb(12, 12, 12);
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: left;
+  }
+}
+.history-info {
+  z-index: 1;
+}
