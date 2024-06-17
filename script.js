@@ -17,7 +17,6 @@
 // }
 
 const swiper = new Swiper(".swiper", {
-  // Optional parameters
   direction: "vertical",
   loop: true,
   spaceBetween: "20",
@@ -66,3 +65,22 @@ for (let btn of tabsBtns) {
     mainContainer.style.backgroundImage = bgImage;
   });
 }
+
+const datingItems = document.querySelectorAll(".dating-item");
+
+datingItems.forEach((item, index) => {
+  const arrow = item.querySelector(".dating-item__arrow");
+  const dropMenu = document.querySelectorAll(".dating-item__dropmenu")[index];
+  const datingText = item.querySelector(".dating-item__text");
+
+  arrow.addEventListener("click", () => {
+    dropMenu.classList.toggle("none");
+  });
+
+  dropMenu.addEventListener("click", (event) => {
+    if (event.target.classList.contains("dropmenu__text")) {
+      datingText.textContent = event.target.textContent;
+      dropMenu.classList.add("none");
+    }
+  });
+});

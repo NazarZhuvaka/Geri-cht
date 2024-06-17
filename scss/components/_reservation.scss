@@ -1,0 +1,67 @@
+.reservation {
+
+    &__container {
+        padding: 152px 178px;
+    }
+
+    &__info-dating{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+
+        margin-bottom: 64px;
+
+    }
+
+    &__info {
+        padding: 48px 38px;
+        border: 1px solid rgba(220, 202, 135, 0.2);
+        background: rgb(12, 12, 12);
+        box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+
+    &__info-pretitle {
+        color: rgb(255, 255, 255);
+        font-family: Cormorant Upright;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 4%;
+        text-transform: capitalize;
+
+        margin-bottom: 8px;
+    }
+
+    &__info-title {
+        color: rgb(220, 202, 135);
+        font-family: Cormorant Upright;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 3%;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 8px;
+        margin-bottom: 64px;
+    }
+
+    &__info-btn {
+        padding: 8px 32px;
+        border: 1px solid rgb(220, 202, 135);
+        background: rgb(220, 202, 135);
+
+        color: rgb(12, 12, 12);
+        font-family: Cormorant Upright;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 175%;
+        letter-spacing: 4%;
+        text-align: left;
+
+        border: none;
+        cursor: pointer;
+    }
+}
+

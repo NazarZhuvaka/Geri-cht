@@ -390,6 +390,9 @@ section {
   background-color: white;
 }
 
+.welcome {
+  padding-bottom: 147px;
+}
 .welcome__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -615,6 +618,104 @@ section {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+.reservation__container {
+  padding: 152px 178px;
+}
+.reservation__info-dating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+.reservation__info {
+  padding: 48px 38px;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  background: rgb(12, 12, 12);
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+.reservation__info-pretitle {
+  color: rgb(255, 255, 255);
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.reservation__info-title {
+  color: rgb(220, 202, 135);
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+.reservation__info-btn {
+  padding: 8px 32px;
+  border: 1px solid rgb(220, 202, 135);
+  background: rgb(220, 202, 135);
+  color: rgb(12, 12, 12);
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+}
+
+.dating-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 412px;
+  padding: 16px;
+  border: 1px solid rgb(245, 239, 219);
+  position: relative;
+}
+.dating-item__text {
+  color: rgb(170, 170, 170);
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.dating-item__arrow {
+  cursor: pointer;
+}
+.dating-item__dropmenu {
+  position: absolute;
+  padding: 4px 8px;
+  bottom: -132px;
+  left: 8px;
+  background: rgb(24, 23, 22);
+  border-radius: 2px;
+}
+
+.dropmenu__text {
+  color: rgb(170, 170, 170);
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
 }
 
 .service__list {
