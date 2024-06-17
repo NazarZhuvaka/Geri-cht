@@ -31,7 +31,7 @@ a {
 }
 
 section {
-	padding-bottom: 70px;
+	// padding-bottom: 70px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 
 	@include mobile{
@@ -95,3 +95,10 @@ section {
 	width: 619px;
     height: 688px;
   }
+
+.none {
+    display: none;
+}
+.tab-controls__btn--active {
+	text-decoration: underline;
+}
