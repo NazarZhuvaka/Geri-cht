@@ -18,7 +18,7 @@ main {
   display: block;
 }
 
-h1, h2, p {
+h1, h2, h3, h4, p {
   font-size: 2em;
   margin: 0;
 }
@@ -672,6 +672,117 @@ section {
   text-align: left;
   border: none;
   cursor: pointer;
+}
+
+.special {
+  padding: 152px 0;
+}
+.special__pretitle {
+  color: rgb(255, 255, 255);
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.special__spoon {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.special__title {
+  color: rgb(220, 202, 135);
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+.special__content {
+  display: grid;
+  grid-template-columns: 1fr 1.01fr 1fr;
+  align-items: center;
+}
+.special__content-link {
+  justify-self: center;
+  padding: 8px 32px;
+  background: rgb(220, 202, 135);
+  color: rgb(12, 12, 12);
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 0.4px;
+  border-radius: 0;
+}
+
+.link-contaner {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.content-menu__title {
+  color: rgb(255, 255, 255);
+  font-family: Cormorant Upright;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 48px;
+}
+.content-menu__info {
+  align-items: center;
+  gap: 32px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 0.5fr;
+  margin-bottom: 8px;
+}
+.content-menu__info span {
+  display: block;
+  height: 1px;
+  max-width: 119px;
+  background: rgb(250, 250, 250);
+}
+.content-menu__info-name {
+  color: rgb(220, 202, 135);
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.4px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.content-menu__info-price {
+  color: rgb(255, 255, 255);
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.content-menu__info-footer {
+  color: rgb(170, 170, 170);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.4px;
+}
+.content-menu__info-footer:not(:last-child) {
+  margin-bottom: 40px;
 }
 
 .dating-item {
