@@ -785,6 +785,80 @@ section {
   margin-bottom: 40px;
 }
 
+.testimony__container {
+  padding: 152px 20px;
+}
+.testimony__spoon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.testimony__pretitle {
+  color: rgb(255, 255, 255);
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.testimony__title {
+  color: rgb(220, 202, 135);
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.3px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 64px;
+}
+.testimony__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 64px;
+  grid-column-gap: 32px;
+}
+.testimony__block {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.testimony__block-info-text {
+  color: rgb(170, 170, 170);
+  font-family: Open Sans;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.4px;
+  text-align: left;
+  max-width: 405px;
+  margin-bottom: 16px;
+}
+.testimony__block-info-name {
+  color: rgb(220, 202, 135);
+  font-family: Cormorant Upright;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.4px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+.testimony__block-info-position {
+  color: rgb(245, 239, 219);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.4px;
+  text-align: left;
+}
+
 .chef {
   background-image: url(./../../img/BG.png);
 }
