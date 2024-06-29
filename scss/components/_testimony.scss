@@ -50,6 +50,13 @@
     }
 
     &__block-img {
+        position: relative;
+
+        &-com{
+            position: absolute;
+            bottom: -20px;
+            right: -16px;
+        }
     }
 
     &__block-info {

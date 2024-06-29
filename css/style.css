@@ -826,6 +826,14 @@ section {
   align-items: center;
   gap: 32px;
 }
+.testimony__block-img {
+  position: relative;
+}
+.testimony__block-img-com {
+  position: absolute;
+  bottom: -20px;
+  right: -16px;
+}
 .testimony__block-info-text {
   color: rgb(170, 170, 170);
   font-family: Open Sans;
