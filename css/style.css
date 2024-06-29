@@ -785,6 +785,89 @@ section {
   margin-bottom: 40px;
 }
 
+.chef {
+  background-image: url(./../../img/BG.png);
+}
+.chef__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 148px 20px;
+}
+.chef__img {
+  position: relative;
+}
+.chef__img-chef {
+  position: relative;
+  z-index: 99;
+}
+.chef__img-cube-top {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+.chef__img-cube-bottom {
+  position: absolute;
+  bottom: -15px;
+  left: -20px;
+}
+.chef__info-pretitle {
+  color: rgb(255, 255, 255);
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.4px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.chef__info-title {
+  color: rgb(220, 202, 135);
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.3px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 8px;
+}
+.chef__info-text {
+  color: rgb(170, 170, 170);
+  font-family: Open Sans;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.4px;
+  text-align: left;
+  margin: 64px 0;
+  max-width: 570px;
+}
+.chef__info-name {
+  color: rgb(220, 202, 135);
+  font-family: Cormorant Upright;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.chef__info-work {
+  color: rgb(170, 170, 170);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: left;
+  margin-bottom: 64px;
+}
+
 .dating-item {
   display: flex;
   justify-content: space-between;
