@@ -84,3 +84,6 @@ datingItems.forEach((item, index) => {
     }
   });
 });
+
+const playBtn = document.querySelector('.video-play')
+playBtn.addEventListener('click' , (e) => e.target.classList.add('none') )

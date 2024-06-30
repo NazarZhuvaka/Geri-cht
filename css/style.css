@@ -867,6 +867,27 @@ section {
   text-align: left;
 }
 
+.video-play {
+  position: absolute;
+  background: none;
+  top: 40%;
+  left: 46%;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.video-bg {
+  position: relative;
+}
+.video-bg-img {
+  filter: brightness(70%);
+}
+
+.video__container {
+  display: flex;
+  justify-content: center;
+}
+
 .chef {
   background-image: url(./../../img/BG.png);
 }
