@@ -30,6 +30,32 @@ a {
 	margin-inline: auto;
 }
 
+.pretitle{
+	color: rgb(255, 255, 255);
+	font-family: Cormorant Upright;
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 130%;
+	letter-spacing: 0.4px;
+	text-align: left;
+	text-transform: capitalize;
+	margin-bottom: 8px;
+
+}
+
+.title{
+	color: rgb(220, 202, 135);
+	font-family: Cormorant Upright;
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 130%;
+	letter-spacing: 0.3px;
+	text-align: left;
+	text-transform: capitalize;
+	margin-top: 8px;
+    margin-bottom: 64px;
+}
+
 section {
 	// padding-bottom: 70px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -63,33 +89,6 @@ section {
 	}
 }
 
-.title {
-	margin-top: 90px;
-	font-size: 44px;
-	color: var(--c-white);
-	font-weight: 700;
-	margin-bottom: 17px;
-	@include mobile {
-		font-size: 32px;
-		margin-top: 50px;
-	}
-
-	span {
-		color: var(--c-primary);
-	}
-}
-
-.desc {
-	color: var(--c-body);
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 160%;
-	max-width: 460px;
-	margin-bottom: 40px;
-	@include mobile {
-		font-size: 14px;
-	}
-}
 
 .swiper {
 	width: 619px;

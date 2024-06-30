@@ -3,35 +3,16 @@
     padding: 152px 0;
 
     &__pretitle {
-        color: rgb(255, 255, 255);
-        font-family: Cormorant Upright;
-        font-size: 23px;
-        font-weight: 700;
-        line-height: 130%;
-        letter-spacing: 0.4px;
-        text-transform: capitalize;
         text-align: center;
     }
 
     &__spoon{
         display: flex;
         justify-content: center;
-        margin-top: 8px;
-
     }
 
     &__title {
-        color: rgb(220, 202, 135);
-        font-family: Cormorant Upright;
-        font-size: 64px;
-        font-weight: 600;
-        line-height: 130%;
-        letter-spacing: 0.4px;
         text-align: center;
-        text-transform: capitalize;
-
-        margin-top: 8px;
-        margin-bottom: 64px;
     }
 
     &__content {
