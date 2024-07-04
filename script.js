@@ -16,7 +16,7 @@
 //     );
 // }
 
-const swiper = new Swiper(".swiper", {
+const swiper1 = new Swiper('#swiper1', {
   direction: "vertical",
   loop: true,
   spaceBetween: "20",
@@ -87,3 +87,24 @@ datingItems.forEach((item, index) => {
 
 const playBtn = document.querySelector('.video-play')
 playBtn.addEventListener('click' , (e) => e.target.classList.add('none') )
+
+
+// var swiper = new Swiper(".mySwiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 10,
+  
+//   breakpoints: {
+//     640: {
+//       slidesPerView: 1,
+//       spaceBetween: 20,
+//     },
+//     768: {
+//       slidesPerView: 2,
+//       spaceBetween: 40,
+//     },
+//     1024: {
+//       slidesPerView: 3,
+//       spaceBetween: 50,
+//     },
+//   },
+// });

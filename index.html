@@ -14,10 +14,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-	<link
+	<!-- <link
 	rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-	/>
+	/> -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.css">
 	<title>Gerícht</title>
 </head>
@@ -70,7 +71,7 @@
 						<button class="btn welcome__info-btn">Explore Menu</button>
 					</div>
 					<div class="welcome__swiper">
-						<div class="swiper">
+						<div class="swiper"  id="swiper1" >
 							<div class="swiper-wrapper">
 							  <!-- Slides -->
 							  <div class="swiper-slide">
@@ -502,10 +503,68 @@
 			</div>
 		</section>
 
+		<section class="gallery">
+			<div class="small-container gallery__container">
+				<div class="gallery__info">
+					<p class="pretitle">Instagram</p>
+					<img src="./img/spoon.svg" alt="spoon">
+					<h3 class="title gallery__info-title">Photo Gallery</h3>
+					<p class="text gallery__info-text">
+						Lorem ipsum dolor sit amet, consectetur 
+						adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
+					</p>
+					<a class="btn special__content-link gallery__info-link" href="/">View More</a>
+				</div>
+				<!-- <div class="gallery__photos">
+					
+					<div class=" swiper mySwiper" id="swiper2">
+						<div class="swiper-wrapper">
+						  <div class="swiper-slide">
+							<img src="./img/soup.png" alt="">
+						  </div>
+						  <div class="swiper-slide">
+							<img src="./img/whiski.png" alt="">
+						  </div>
+						  <div class="swiper-slide">
+							<img src="./img/egg.png" alt="">
+						  </div>
+						  <div class="swiper-slide">
+							<img src="./img/pure.png" alt="">
+						  </div>
+						  <div class="swiper-slide">
+							<img src="./img/juse.png" alt="">
+						  </div>
+						</div>
+						
+					  </div>
+				</div> -->
+			</div>
+		</section>
+
+		<section class="subscribe">
+			<div class="small-container subscribe__container">
+				<div class="subscribe__info">
+					<p class="pretitle subscribe__info-pretitle">Newsletter</p>
+					<div class="subscribe__spoon">
+						<img src="./img/spoon.svg" alt="spoon">
+					</div>
+					<h4 class="title subscribe__info-title">Subscribe to Our Newsletter</h4>
+					<p class="subscribe__info-text">And never miss latest Updates!</p>
+
+					<div class="subscribe__info-form">
+						<input class="form__email" type="email" placeholder="Email Address">
+						<button class="btn form__btn special__content-link ">Subscribe</button>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
 
 	</div>
 
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="script.js"></script>
 </body>
 
