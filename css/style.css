@@ -1123,6 +1123,7 @@ section {
   border: 1px solid rgba(220, 202, 135, 0.2);
   box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
   background: rgb(12, 12, 12);
+  padding: 64px 0;
 }
 .subscribe__info-pretitle {
   text-align: center;
@@ -1152,6 +1153,13 @@ section {
   padding: 16px 0 16px 19px;
   width: 100%;
   max-width: 635px;
+  color: rgb(170, 170, 170);
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
 }
 .portfolio__list {
   display: grid;
