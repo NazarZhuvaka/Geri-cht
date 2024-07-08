@@ -17,6 +17,12 @@ const members = [
         name: 'Robert Fox',
         role: 'Chef',
     } , 
+    {
+        imgUrl:'./img/brooklin.png',
+        text:'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+        name: 'Brooklyn Simmons',
+        role: 'Caterer',
+    } , 
 ]
 
 function About () {
@@ -31,12 +37,17 @@ function About () {
 
 function Member (props) {
     return `
-        <div>
-            <img src="${props.imgUrl}" alt=""/>
+    <article class="testimony__block">
+        <div class="testimony__block-img">
+            <img  src="${props.imgUrl}" >
+        </div>
+
+        <div class="testimony__block-info">
             <p class="testimony__block-info-text">${props.text}</p>
             <h4 class="testimony__block-info-name">${props.name}</h4>
             <p class="testimony__block-info-position">${props.role}</p>
         </div>
+    </article>
     `
 }
 
