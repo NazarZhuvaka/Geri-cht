@@ -68,7 +68,7 @@ for (let btn of tabsBtns) {
 
 const datingItems = document.querySelectorAll(".dating-item");
 
-datingItems.forEach((item, index) => {
+datingItems.forEach((item, index ) => {
   const arrow = item.querySelector(".dating-item__arrow");
   const dropMenu = document.querySelectorAll(".dating-item__dropmenu")[index];
   const datingText = item.querySelector(".dating-item__text");
@@ -83,9 +83,28 @@ datingItems.forEach((item, index) => {
       dropMenu.classList.add("none");
     }
   });
+  document.addEventListener("click", (event) => {
+    if (!item.contains(event.target)) {
+      dropMenu.classList.add("none");
+    }
+  });
 });
 
 const playBtn = document.querySelector('.video-play')
 playBtn.addEventListener('click' , (e) => e.target.classList.add('none') )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
