@@ -18,7 +18,7 @@
 
     &__main-date{
         color: rgb(170, 170, 170);
-        font-family: Open Sans;
+        font-family: var(--ff-sec);
         font-size: 16px;
         font-weight: 400;
         line-height: 175%;
@@ -34,7 +34,7 @@
 
     &__main-text {
         color: rgb(255, 255, 255);
-        font-family: Open Sans;
+        font-family: var(--ff-sec);
         font-size: 16px;
         font-weight: 400;
         line-height: 175%;
@@ -58,7 +58,6 @@
     }
     &__title{
         color: rgb(245, 239, 219);
-        font-family: Cormorant Upright;
         font-size: 32px;
         font-weight: 400;
         line-height: 130%;
@@ -72,7 +71,7 @@
     }
     &__text{
         color: rgb(170, 170, 170);
-        font-family: Open Sans;
+        font-family: var(--ff-sec);
         font-size: 16px;
         font-weight: 400;
         line-height: 175%;
@@ -81,7 +80,7 @@
 
         &--hours{
             color: rgb(170, 170, 170);
-        font-family: Open Sans;
+            font-family: var(--ff-sec);
         font-size: 16px;
         font-weight: 400;
         line-height: 175%;

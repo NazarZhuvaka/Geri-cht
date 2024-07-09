@@ -185,7 +185,6 @@ a {
 
 .pretitle {
   color: rgb(255, 255, 255);
-  font-family: Cormorant Upright;
   font-size: 23px;
   font-weight: 700;
   line-height: 130%;
@@ -197,7 +196,6 @@ a {
 
 .title {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 64px;
   font-weight: 600;
   line-height: 130%;
@@ -242,7 +240,7 @@ section {
   background: #d48902;
 }
 
-#swiper1 {
+.swiper {
   width: 619px;
   height: 688px;
 }
@@ -297,11 +295,10 @@ section {
 }
 .header__logo {
   color: rgb(255, 255, 255);
-  font-family: Cormorant Upright;
   font-size: 44px;
   font-weight: 700;
   line-height: 130%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -344,11 +341,11 @@ section {
 }
 .header__a {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
   transition: var(--transition);
 }
@@ -374,11 +371,11 @@ section {
   align-items: center;
   grid-column-start: 4;
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 600;
   line-height: 175%;
-  letter-spacing: 5%;
+  letter-spacing: 0.4px;
   text-align: left;
 }
 
@@ -413,11 +410,11 @@ section {
 }
 .welcome__side-info p {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 18px;
   font-weight: 400;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
 }
 .welcome__side-scroll {
   display: grid;
@@ -428,11 +425,10 @@ section {
 }
 .welcome__side-scroll p {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
   text-transform: uppercase;
 }
@@ -453,11 +449,11 @@ section {
 .welcome__info-desc {
   max-width: 453px;
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
   margin-top: 32px;
 }
@@ -465,11 +461,10 @@ section {
   padding: 8px 32px;
   background-color: #DCCA87;
   color: rgb(12, 11, 8);
-  font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
   margin-top: 32px;
 }
@@ -518,11 +513,10 @@ section {
 }
 .about-info__title {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 64px;
   font-weight: 600;
   line-height: 130%;
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
   text-transform: capitalize;
   margin-bottom: 8px;
 }
@@ -531,11 +525,11 @@ section {
 }
 .about-info__text {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -546,11 +540,10 @@ section {
   padding: 8px 32px;
   background: rgb(220, 202, 135);
   color: rgb(12, 12, 12);
-  font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
 }
 
@@ -580,12 +573,11 @@ section {
 .tab-controls__btn {
   background: none;
   color: rgb(255, 255, 255);
-  font-family: Cormorant Upright;
   font-size: 64px;
   font-weight: 600;
   line-height: 130%;
   text-align: left;
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
   text-transform: capitalize;
   cursor: pointer;
 }
@@ -625,16 +617,6 @@ section {
   text-align: center;
 }
 .reservation__info-btn {
-  padding: 8px 32px;
-  border: 1px solid rgb(220, 202, 135);
-  background: rgb(220, 202, 135);
-  color: rgb(12, 12, 12);
-  font-family: Cormorant Upright;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 175%;
-  letter-spacing: 4%;
-  text-align: left;
   border: none;
   cursor: pointer;
 }
@@ -662,7 +644,6 @@ section {
   padding: 8px 32px;
   background: rgb(220, 202, 135);
   color: rgb(12, 12, 12);
-  font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
@@ -678,7 +659,6 @@ section {
 
 .content-menu__title {
   color: rgb(255, 255, 255);
-  font-family: Cormorant Upright;
   font-size: 45px;
   font-weight: 600;
   line-height: 130%;
@@ -703,7 +683,6 @@ section {
 }
 .content-menu__info-name {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 23px;
   font-weight: 700;
   line-height: 130%;
@@ -713,7 +692,6 @@ section {
 }
 .content-menu__info-price {
   color: rgb(255, 255, 255);
-  font-family: Cormorant Upright;
   font-size: 23px;
   font-weight: 700;
   line-height: 130%;
@@ -723,7 +701,7 @@ section {
 }
 .content-menu__info-footer {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
@@ -768,7 +746,7 @@ section {
 }
 .testimony__block-info-text {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-style: italic;
   font-size: 16px;
   font-weight: 400;
@@ -780,7 +758,6 @@ section {
 }
 .testimony__block-info-name {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 32px;
   font-weight: 400;
   line-height: 130%;
@@ -791,7 +768,7 @@ section {
 }
 .testimony__block-info-position {
   color: rgb(245, 239, 219);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
@@ -854,21 +831,20 @@ section {
 
 .block__info-title {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 23px;
   font-weight: 700;
   line-height: 130%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
   text-transform: capitalize;
 }
 .block__info-text {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
   max-width: 190px;
 }
@@ -902,7 +878,7 @@ section {
 }
 .chef__info-text {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-style: italic;
   font-size: 16px;
   font-weight: 400;
@@ -914,22 +890,21 @@ section {
 }
 .chef__info-name {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 32px;
   font-weight: 400;
   line-height: 130%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
   text-transform: capitalize;
   margin-bottom: 8px;
 }
 .chef__info-work {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: left;
   margin-bottom: 64px;
 }
@@ -946,11 +921,10 @@ section {
 }
 .dating-item__text {
   color: rgb(170, 170, 170);
-  font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 600;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: center;
   text-transform: capitalize;
 }
@@ -968,67 +942,13 @@ section {
 
 .dropmenu__text {
   color: rgb(170, 170, 170);
-  font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 600;
   line-height: 175%;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
   text-align: center;
   text-transform: capitalize;
   cursor: pointer;
-}
-
-.service__list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 26px;
-}
-@media (max-width: 992px) {
-  .service__list {
-    grid-template-columns: 1fr;
-  }
-}
-
-.service-item {
-  border-radius: 8px;
-  background: var(--c-dark2);
-  padding: 32px;
-  display: flex;
-  gap: 20px;
-}
-@media (max-width: 576px) {
-  .service-item {
-    flex-direction: column;
-    padding: 20px;
-  }
-}
-.service-item__img {
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: var(--c-dark1);
-  width: 76px;
-  height: 76px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.service-item__img svg path:first-child {
-  fill: var(--c-primary);
-}
-.service-item__img svg path:last-child {
-  stroke: var(--c-primary);
-}
-.service-item__title {
-  color: var(--c-white);
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 17px;
-}
-.service-item__desc {
-  color: var(--c-body);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 160%;
 }
 
 .blog {
@@ -1055,7 +975,7 @@ section {
 }
 .block__date p {
   color: rgb(250, 250, 250);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
@@ -1063,7 +983,6 @@ section {
 }
 .block__type {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 32px;
   font-weight: 400;
   line-height: 130%;
@@ -1075,7 +994,7 @@ section {
 }
 .block__text {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
@@ -1085,35 +1004,10 @@ section {
 }
 .block__link {
   color: rgb(220, 202, 135);
-  font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
   letter-spacing: 0.4px;
-}
-
-.gallery__container {
-  display: flex;
-  gap: 64px;
-  padding: 129px 20px;
-}
-.gallery__info-title {
-  margin-bottom: 24px;
-}
-.gallery__info-text {
-  color: rgb(170, 170, 170);
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 175%;
-  letter-spacing: 4%;
-  text-align: left;
-  margin-bottom: 24px;
-  max-width: 471px;
-}
-.swiper {
-  width: 100%;
-  height: 100%;
 }
 
 .subscribe {
@@ -1154,7 +1048,6 @@ section {
   width: 100%;
   max-width: 635px;
   color: rgb(170, 170, 170);
-  font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 600;
   line-height: 175%;
@@ -1173,7 +1066,7 @@ section {
 }
 .footer__main-date {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
@@ -1187,7 +1080,7 @@ section {
 }
 .footer__main-text {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
@@ -1204,7 +1097,6 @@ section {
 }
 .footer__title {
   color: rgb(245, 239, 219);
-  font-family: Cormorant Upright;
   font-size: 32px;
   font-weight: 400;
   line-height: 130%;
@@ -1215,7 +1107,7 @@ section {
 }
 .footer__text {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;
@@ -1224,7 +1116,7 @@ section {
 }
 .footer__text--hours {
   color: rgb(170, 170, 170);
-  font-family: Open Sans;
+  font-family: var(--ff-sec);
   font-size: 16px;
   font-weight: 400;
   line-height: 175%;

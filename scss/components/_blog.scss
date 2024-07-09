@@ -32,7 +32,7 @@
 
         p {
             color: rgb(250, 250, 250);
-            font-family: Open Sans;
+            font-family: var(--ff-sec);
             font-size: 16px;
             font-weight: 400;
             line-height: 175%;
@@ -42,7 +42,6 @@
 
     &__type {
         color: rgb(220, 202, 135);
-        font-family: Cormorant Upright;
         font-size: 32px;
         font-weight: 400;
         line-height: 130%;
@@ -56,7 +55,7 @@
 
     &__text {
         color: rgb(170, 170, 170);
-        font-family: Open Sans;
+        font-family: var(--ff-sec);
         font-size: 16px;
         font-weight: 400;
         line-height: 175%;
@@ -68,7 +67,6 @@
 
     &__link {
         color: rgb(220, 202, 135);
-        font-family: Cormorant Upright;
         font-size: 16px;
         font-weight: 700;
         line-height: 175%;

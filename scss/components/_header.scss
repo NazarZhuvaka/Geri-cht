@@ -32,17 +32,11 @@
 	}
 
 	&__logo {
-		// color: var(--c-white);
-		// font-size: 28px;
-		// font-weight: 700;
-		// display: inline-flex;
-
 		color: rgb(255, 255, 255);
-		font-family: Cormorant Upright;
 		font-size: 44px;
 		font-weight: 700;
 		line-height: 130%;
-		letter-spacing: 4%;
+		letter-spacing: 0.4px;
 		text-align: center;
 		text-transform: uppercase;
 
@@ -91,15 +85,12 @@
 	}
 
 	&__a {
-		// color: var(--c-white);
-		// font-size: 16px;
-		// font-weight: 400;
 		color: rgb(255, 255, 255);
-		font-family: Open Sans;
+		font-family: var(--ff-sec);
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 175%;
-		letter-spacing: 4%;
+		letter-spacing: 0.4px;
 		text-align: left;
 
 
@@ -128,17 +119,16 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	// gap: 50px;
 
 	grid-column-start: 4;
 
 
 	color: rgb(255, 255, 255);
-	font-family: Open Sans;
+	font-family: var(--ff-sec);
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 175%;
-	letter-spacing: 5%;
+	letter-spacing: 0.4px;
 	text-align: left;
 }
 

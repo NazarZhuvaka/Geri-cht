@@ -2,7 +2,6 @@
 
     &__title {
         color: rgb(255, 255, 255);
-        font-family: Cormorant Upright;
         font-size: 45px;
         font-weight: 600;
         line-height: 130%;
@@ -32,7 +31,6 @@
     &__info-name {
 
         color: rgb(220, 202, 135);
-        font-family: Cormorant Upright;
         font-size: 23px;
         font-weight: 700;
         line-height: 130%;
@@ -43,7 +41,6 @@
 
     &__info-price {
         color: rgb(255, 255, 255);
-        font-family: Cormorant Upright;
         font-size: 23px;
         font-weight: 700;
         line-height: 130%;
@@ -54,7 +51,7 @@
 
     &__info-footer {
         color: rgb(170, 170, 170);
-        font-family: Open Sans;
+        font-family: var(--ff-sec);
         font-size: 16px;
         font-weight: 400;
         line-height: 175%;

@@ -23,11 +23,11 @@
 
 		p {
 			color: rgb(255, 255, 255);
-			font-family: Open Sans;
+			font-family: var(--ff-sec);
 			font-size: 18px;
 			font-weight: 400;
 			line-height: 175%;
-			letter-spacing: 4%;
+			letter-spacing: 0.4px;
 		}
 	}
 
@@ -39,11 +39,10 @@
 		bottom: 0;
 		p {
 			color: rgb(220, 202, 135);
-			font-family: Cormorant Upright;
 			font-size: 16px;
 			font-weight: 700;
 			line-height: 175%;
-			letter-spacing: 4%;
+			letter-spacing: 0.4px;
 			text-align: left;
 			text-transform: uppercase;
 		}
@@ -73,11 +72,11 @@
 	&__info-desc {
 		max-width: 453px;
 		color: rgb(170, 170, 170);
-		font-family: Open Sans;
+		font-family: var(--ff-sec);
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 175%;
-		letter-spacing: 4%;
+		letter-spacing: 0.4px;
 		text-align: left;
 
 		margin-top: 32px;
@@ -88,11 +87,10 @@
 		padding: 8px 32px;
 		background-color: #DCCA87;
 		color: rgb(12, 11, 8);
-		font-family: Cormorant Upright;
 		font-size: 16px;
 		font-weight: 700;
 		line-height: 175%;
-		letter-spacing: 4%;
+		letter-spacing: 0.4px;
 		text-align: left;
 
 		margin-top: 32px;
