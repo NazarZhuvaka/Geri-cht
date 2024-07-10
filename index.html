@@ -16,6 +16,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Gerícht</title>
 </head>
 
@@ -49,7 +50,7 @@
 			</div>
 		</header>
 
-		<section class="welcome">
+		<section class="welcome" data-aos="fade-up">
 			<div class="container welcome__big-container">
 				<div class="welcome__side-info">
 					<p>#Bar</p>
@@ -69,7 +70,6 @@
 					<div class="welcome__swiper">
 						<div class="swiper">
 							<div class="swiper-wrapper">
-							  <!-- Slides -->
 							  <div class="swiper-slide">
 								<img src="./img/first.png" alt="first">
 							  </div>
@@ -93,7 +93,7 @@
 			</div>
 		</section>
 
-		<section class="about">
+		<section class="about" data-aos="fade-right">
 			<div class="small-container about__container">
 				<div class="about-info about-info--right">
 					<h2 class="about-info__title about-info__title--right">About Us</h2>
@@ -112,47 +112,12 @@
 			</div>
 		</section>
 
-		<section class="reservation">
+		<section class="reservation" data-aos="fade-down">
 			<div class="container reservation__container">
 				<div class="reservation__info">
 					<p class="pretitle reservation__info-pretitle">Reservations</p>
 					<img src="./img/spoon.svg" alt="spoon">
 					<h3 class="title reservation__info-title">Book A Table</h3>
-
-					<!-- <article class="reservation__info-dating">
-						<div class="dating-item">
-							<p class="dating-item__text">1 Person</p>
-							<img class="dating-item__arrow" src="./img/arrow-down.svg" alt="arrow-down">
-							<div class="dating-item__dropmenu none">
-								<p class="dropmenu__text">1 Person</p>
-								<p class="dropmenu__text">2 Person</p>
-								<p class="dropmenu__text">3 Person</p>
-								<p class="dropmenu__text">4 Person</p>
-							</div>
-						</div>
-						<div class="dating-item">
-							<p class="dating-item__text">12/05/2021</p>
-							<img class="dating-item__arrow" src="./img/arrow-down.svg" alt="arrow-down">
-							<div class="dating-item__dropmenu none">
-								<p class="dropmenu__text">12/05/2022</p>
-								<p class="dropmenu__text">12/05/2024</p>
-								<p class="dropmenu__text">12/03/2024</p>
-								<p class="dropmenu__text">8/05/2021</p>
-							</div>
-						</div>
-						<div class="dating-item">
-							<p class="dating-item__text">11:00 AM</p>
-							<img class="dating-item__arrow" src="./img/arrow-down.svg" alt="arrow-down">
-							<div class="dating-item__dropmenu none">
-								<p class="dropmenu__text">11:00 AM</p>
-								<p class="dropmenu__text">10:00 AM</p>
-								<p class="dropmenu__text">1:00 AM</p>
-								<p class="dropmenu__text">11:30 AM</p>
-							</div>
-						</div>
-
-					</article> -->
-
 					<article class="reservation__info-dating">
 						<div class="dating-item">
 							<p class="dating-item__text">1 Person</p>
@@ -210,7 +175,7 @@
 		</section>
 
 		  
-		<section class="special">
+		<section class="special" data-aos="flip-right" >
 			<div class="small-container">
 				<p class="pretitle special__pretitle">Menu that fits you palatte</p>
 				<div class="special__spoon">
@@ -303,7 +268,7 @@
 			</div>
 		</section>
 
-		<section class="chef">
+		<section class="chef" data-aos="zoom-in-up">
 			<div class="small-container chef__container">
 				<div class="chef__img">
 					<img class="chef__img-cube-top" src="./img/rectangle-top.svg" alt="cube">
@@ -331,98 +296,14 @@
 			</div>
 		</section>
 
-		<section class="testimony">
+		<section class="testimony" data-aos="zoom-in-right" >
 			<div class="small-container testimony__container">
 				<p class="pretitle testimony__pretitle">Testimony</p>
 				<div class="testimony__spoon">
 					<img src="./img/spoon.svg" alt="spoon">
 				</div>
-				<h3 class="title testimony__title">Happy customers</h3>
-				<div class="" id="app"></div>
-				<!-- <div class="testimony__list">
-					<article class="testimony__block">
-						<div class="testimony__block-img">
-							<img  src="./img/wade.png" alt="wade">
-							<img class="testimony__block-img-com" src="./img/com.svg" alt="com">
-							
-						</div>
-						
-						<div class="testimony__block-info">
-							<p class="testimony__block-info-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing sit. 
-								auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. 
-								Nulla scelerisque scelerisque congue.
-							</p>
-							<h4 class="testimony__block-info-name">
-								Wade Warren
-							</h4>
-							<p class="testimony__block-info-position">
-								Sommelier
-							</p>
-						</div>
-					
-					</article>
-					<article class="testimony__block">
-						<div class="testimony__block-img">
-							<img    src="./img/jane.png" alt="jane">
-							<img class="testimony__block-img-com" src="./img/com.svg" alt="com">
-							
-						</div>
-						<div class="testimony__block-info">
-							<p class="testimony__block-info-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing sit. 
-								auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. 
-								Nulla scelerisque scelerisque congue.
-							</p>
-							<h4 class="testimony__block-info-name">
-								Jane Cooper
-							</h4>
-							<p class="testimony__block-info-position">
-								Chef
-							</p>
-						</div>
-					</article>
-					<article class="testimony__block">
-						<div class="testimony__block-img">
-							<img    src="./img/robert.png" alt="robert">
-							<img class="testimony__block-img-com" src="./img/com.svg" alt="com">
-							
-						</div>
-						<div class="testimony__block-info">
-							<p class="testimony__block-info-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing sit. 
-								auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. 
-								Nulla scelerisque scelerisque congue.
-							</p>
-							<h4 class="testimony__block-info-name">
-								Robert Fox
-							</h4>
-							<p class="testimony__block-info-position">
-								Chef
-							</p>
-						</div>
-					</article>
-					<article class="testimony__block">
-						<div class="testimony__block-img">
-							<img    src="./img/brooklin.png" alt="brooklin">
-							<img class="testimony__block-img-com" src="./img/com.svg" alt="com">
-						</div>
-						<div class="testimony__block-info">
-							<p class="testimony__block-info-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing sit. 
-								auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. 
-								Nulla scelerisque scelerisque congue.
-							</p>
-							<h4 class="testimony__block-info-name">
-								Brooklyn Simmons
-							</h4>
-							<p class="testimony__block-info-position">
-								Caterer
-							</p>
-						</div>
-					</article>
-				</div> -->
-
+				<h3 class="title testimony__title" >Happy customers</h3>
+				<div class="app" id="app"></div>
 			</div>
 		</section>
 
@@ -489,7 +370,7 @@
 				</div>
 				<h3 class="title blog__title">Gerícht updates</h3>
 				<div class="blog__list">
-					<article class="blog__list-block">
+					<article class="blog__list-block hidden">
 						<img src="./img/gril.png" alt="gril">
 						<div class="block__date">
 							<p>16 Apr 2021</p>
@@ -502,7 +383,7 @@
 						</p>
 						<a class="block__link" href="/">Read More</a>
 					</article>
-					<article class="blog__list-block">
+					<article class="blog__list-block hidden">
 						<img src="./img/coctails.png" alt="coctails">
 						<div class="block__date">
 							<p>23 May 2021</p>
@@ -515,7 +396,7 @@
 						</p>
 						<a class="block__link" href="/">Read More</a>
 					</article>
-					<article class="blog__list-block">
+					<article class="blog__list-block hidden">
 						<img src="./img/cooking.png" alt="cooking">
 						<div class="block__date">
 							<p>06 Aug 2021</p>
@@ -573,7 +454,7 @@
 			</div>
 		</section> -->
 
-		<section class="subscribe">
+		<section class="subscribe" data-aos="fade-up-right">
 			<div class="small-container subscribe__container">
 				<div class="subscribe__info">
 					<p class="pretitle subscribe__info-pretitle">Newsletter</p>
@@ -592,7 +473,7 @@
 			</div>
 		</section>
 
-		<footer class="footer" id="footer">
+		<footer class="footer" id="footer" data-aos="fade-up">
 			<div class="small-container footer__container">
 				<div class="footer__contact">
 					<h5 class="footer__title">Contact Us</h5>
@@ -636,9 +517,13 @@
 		
 
 	</div>
-
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="./js/array.js"></script>
+	<script src="./js/animation.js"></script>
 	<script src="script.js"></script>
 
 </body>
