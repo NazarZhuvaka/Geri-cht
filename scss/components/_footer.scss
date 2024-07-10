@@ -83,6 +83,14 @@
         margin-bottom: 64px;
     }
 
+    &__main_link:hover{
+        .footer__svg{
+            transition: 0.3s;
+            fill: rgb(220, 202, 135);
+        }
+
+    }
+
     &__hours {
     }
     &__title{
@@ -118,5 +126,4 @@
         }
     }
 }
-
 

@@ -1142,6 +1142,10 @@ section {
   margin-top: 16px;
   margin-bottom: 64px;
 }
+.footer__main_link:hover .footer__svg {
+  transition: 0.3s;
+  fill: rgb(220, 202, 135);
+}
 .footer__title {
   color: rgb(245, 239, 219);
   font-size: 32px;
