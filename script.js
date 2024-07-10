@@ -66,29 +66,42 @@ for (let btn of tabsBtns) {
   });
 }
 
-const datingItems = document.querySelectorAll(".dating-item");
 
-datingItems.forEach((item, index ) => {
-  const arrow = item.querySelector(".dating-item__arrow");
-  const dropMenu = document.querySelectorAll(".dating-item__dropmenu")[index];
-  const datingText = item.querySelector(".dating-item__text");
 
-  arrow.addEventListener("click", () => {
-    dropMenu.classList.toggle("none");
+document.addEventListener('DOMContentLoaded', () => {
+  const datingItems = document.querySelectorAll('.dating-item');
+
+  datingItems.forEach(item => {
+      const textElement = item.querySelector('.dating-item__text');
+      const dropmenu = item.querySelector('.dating-item__dropmenu');
+
+      item.addEventListener('click', (event) => {
+          datingItems.forEach(otherItem => {
+              if (otherItem !== item) {
+                  otherItem.querySelector('.dating-item__dropmenu').classList.add('none');
+              }
+          });
+          dropmenu.classList.toggle('none');
+      });
+
+      dropmenu.querySelectorAll('.dropmenu__text').forEach(option => {
+          option.addEventListener('click', (event) => {
+              event.stopPropagation(); 
+              textElement.textContent = event.target.textContent;
+              dropmenu.classList.add('none');
+          });
+      });
   });
 
-  dropMenu.addEventListener("click", (event) => {
-    if (event.target.classList.contains("dropmenu__text")) {
-      datingText.textContent = event.target.textContent;
-      dropMenu.classList.add("none");
-    }
-  });
-  document.addEventListener("click", (event) => {
-    if (!item.contains(event.target)) {
-      dropMenu.classList.add("none");
-    }
+  document.addEventListener('click', (event) => {
+      if (!event.target.closest('.dating-item')) {
+          datingItems.forEach(item => {
+              item.querySelector('.dating-item__dropmenu').classList.add('none');
+          });
+      }
   });
 });
+
 
 const playBtn = document.querySelector('.video-play')
 playBtn.addEventListener('click' , (e) => e.target.classList.add('none') )
