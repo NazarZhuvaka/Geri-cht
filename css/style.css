@@ -423,7 +423,7 @@ section {
   right: 20px;
   bottom: 0;
 }
-.welcome__side-scroll p {
+.welcome__side-scroll-text {
   color: rgb(220, 202, 135);
   font-size: 16px;
   font-weight: 700;
@@ -431,6 +431,7 @@ section {
   letter-spacing: 0.4px;
   text-align: left;
   text-transform: uppercase;
+  z-index: 11;
 }
 .welcome__side-scroll-line {
   justify-self: center;
@@ -918,6 +919,7 @@ section {
   padding: 16px;
   border: 1px solid rgb(245, 239, 219);
   position: relative;
+  cursor: pointer;
 }
 .dating-item__text {
   color: rgb(170, 170, 170);
@@ -1060,9 +1062,33 @@ section {
 .footer__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
   text-align: center;
   align-items: baseline;
   padding: 128px 20px 144px;
+}
+.footer__side-scroll {
+  display: grid;
+  gap: 24px;
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+.footer__side-scroll-line {
+  justify-self: center;
+  background: linear-gradient(rgb(220, 202, 135), rgba(220, 202, 135, 0.24));
+  width: 1px;
+  height: 61px;
+}
+.footer__side-scroll-text {
+  color: rgb(220, 202, 135);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 0.4px;
+  text-align: left;
+  text-transform: uppercase;
+  z-index: 11;
 }
 .footer__main-date {
   color: rgb(170, 170, 170);

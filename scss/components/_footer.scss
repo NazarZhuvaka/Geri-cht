@@ -4,6 +4,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
 
+        position: relative;
+
         text-align: center;
         align-items: baseline;
 
@@ -14,6 +16,33 @@
     }
 
     &__main {
+    }
+
+    &__side-scroll {
+        display: grid;
+		gap: 24px;
+		position: absolute;
+		right: 20px;
+		bottom: 30px;
+    }
+
+    &__side-scroll-line {
+        justify-self: center;
+			background: linear-gradient(rgb(220, 202, 135),rgba(220, 202, 135, 0.24));
+			width: 1px;
+			height: 61px;
+    }
+
+    &__side-scroll-text {
+        color: rgb(220, 202, 135);
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 175%;
+			letter-spacing: 0.4px;
+			text-align: left;
+			text-transform: uppercase;
+
+			z-index: 11;
     }
 
     &__main-date{
@@ -89,4 +118,5 @@
         }
     }
 }
+
 

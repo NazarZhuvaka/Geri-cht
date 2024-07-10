@@ -37,7 +37,7 @@
 		position: absolute;
 		right: 20px;
 		bottom: 0;
-		p {
+		&-text {
 			color: rgb(220, 202, 135);
 			font-size: 16px;
 			font-weight: 700;
@@ -45,6 +45,8 @@
 			letter-spacing: 0.4px;
 			text-align: left;
 			text-transform: uppercase;
+
+			z-index: 11;
 		}
 
 		&-line{
